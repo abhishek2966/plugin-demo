@@ -19,9 +19,9 @@ func main() {
 	var mod string
 	switch userType {
 	case "user":
-		mod = ".pugin/user.so"
+		mod = "./pugin/user.so"
 	case "admin":
-		mod = "./chi/admin.so"
+		mod = "./plugin/admin.so"
 	default:
 		fmt.Println("Not supported")
 		return
