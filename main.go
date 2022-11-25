@@ -19,7 +19,7 @@ func main() {
 	var mod string
 	switch userType {
 	case "user":
-		mod = "./pugin/user.so"
+		mod = "./plugin/user.so"
 	case "admin":
 		mod = "./plugin/admin.so"
 	default:
